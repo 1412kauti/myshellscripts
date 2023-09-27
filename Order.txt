@@ -1,0 +1,20 @@
+order:
+
+runner1:
+
+install_zsh.sh
+
+<reboot>
+runner2:
+
+install_prerequisites.sh
+download_mambaforge.sh
+install_Nerd_Fonts.sh
+configure_zsh.sh
+
+<close shell>
+runner3:
+download_google_chrome.sh 
+download_vscode.sh
+install_debs.sh
+install ros2

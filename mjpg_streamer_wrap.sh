@@ -1,1 +1,0 @@
-mjpg-streamer -i "input_uvc.so -d /dev/video$1 -r $2 -f $3" -o "output_http.so -p $4"

@@ -1,0 +1,1 @@
+sudo apt install zip unzip axel guake gnome-tweaks gnome-sushi snapd python3-pip cargo -y
