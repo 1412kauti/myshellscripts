@@ -109,5 +109,5 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source "/home/ubuntu/conda/etc/profile.d/conda.sh"
-source "/home/ubuntu/conda/etc/profile.d/mamba.sh"
+source "/home/kaito/conda/etc/profile.d/conda.sh"
+source "/home/kaito/conda/etc/profile.d/mamba.sh"
