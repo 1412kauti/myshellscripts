@@ -1,2 +1,2 @@
-axel https://az764295.vo.msecnd.net/stable/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/code_1.82.2-1694671812_amd64.deb
-mv code_1.82.2-1694671812_amd64.deb ~/Downloads
+axel https://vscode.download.prss.microsoft.com/dbazure/download/stable/b58957e67ee1e712cebf466b995adf4c5307b2bd/code_1.89.0-1714530869_amd64.deb
+mv code_1.89.0-1714530869_amd64.deb ~/Downloads
