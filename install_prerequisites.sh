@@ -1,1 +1,1 @@
-sudo apt install zip unzip axel guake gnome-tweaks gnome-sushi snapd python3-pip cargo -y
+sudo apt install zip unzip axel gnome-tweaks gnome-sushi python3-pip cargo btrfs-progs lm-sensors cmake -y

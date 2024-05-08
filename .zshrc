@@ -111,3 +111,5 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source "/home/kaito/conda/etc/profile.d/conda.sh"
 source "/home/kaito/conda/etc/profile.d/mamba.sh"
+alias ros="source /opt/ros/hummble/setup.zsh && echo 'Sourcing ROS2 Workspace'"
+
