@@ -1,2 +1,2 @@
-axel https://vscode.download.prss.microsoft.com/dbazure/download/stable/b58957e67ee1e712cebf466b995adf4c5307b2bd/code_1.89.0-1714530869_amd64.deb
-mv code_1.89.0-1714530869_amd64.deb ~/Downloads
+wget https://vscode.download.prss.microsoft.com/dbazure/download/stable/b58957e67ee1e712cebf466b995adf4c5307b2bd/code_1.89.0-1714530869_amd64.deb
+sudo apt install ./code_1.89.0-1714530869_amd64.deb 
