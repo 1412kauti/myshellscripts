@@ -14,4 +14,7 @@ Signed-By: /etc/apt/keyrings/zabbly.asc
 EOF'
 
 sudo apt update
-sudo apt install incus
+sudo apt install incus -y
+
+sudo adduser ${USER} incus-admin
+newgrp incus-admin
