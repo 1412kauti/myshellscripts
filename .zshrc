@@ -109,7 +109,20 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# >>> mamba initialize >>>
+# !! Contents within this block are managed by 'mamba shell init' !!
+export MAMBA_EXE='/home/kaito/conda/bin/mamba';
+export MAMBA_ROOT_PREFIX='/home/kaito/conda';
+__mamba_setup="$("$MAMBA_EXE" shell hook --shell zsh --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__mamba_setup"
+else
+    alias mamba="$MAMBA_EXE"  # Fallback on help from mamba activate
+fi
+unset __mamba_setup
+# <<< mamba initialize <<<
+
 source "/home/kaito/conda/etc/profile.d/conda.sh"
 source "/home/kaito/conda/etc/profile.d/mamba.sh"
 alias ros="source /opt/ros/humble/setup.zsh && echo 'Sourcing ROS2 Workspace'"
-
