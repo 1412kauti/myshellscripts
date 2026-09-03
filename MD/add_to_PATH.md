@@ -1,0 +1,1 @@
+export PATH="/home/kaito/.local/bin:$PATH"

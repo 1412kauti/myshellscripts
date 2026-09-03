@@ -1,0 +1,1 @@
+curl -fsSL https://app.warp.dev/download/agent-cli | bash
