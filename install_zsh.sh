@@ -2,7 +2,7 @@ sudo apt install zsh -y
 
 # Install Nerd Fonts
 mkdir /home/$USER/.fonts
-unzip /home/kaito/Downloads/JetBrainsMono.zip -d /home/$USER/.fonts/JetBrainsMono
+unzip /home/kaito/Downloads/fonts/JetBrainsMono.zip -d /home/$USER/.fonts/JetBrainsMono
 fc-cache -f -v
 
 # Oh-My-ZSH
